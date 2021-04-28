@@ -34,19 +34,6 @@ public class Menu {
         }
     }
 
-    private void menu1() {
-        System.out.println("Please select and option:");
-        System.out.println("1. EasyAi (Makes random moves)");
-        System.out.println("2. MediumAi (Good but can be beaten!)");
-        System.out.println("3. HardAi (This AI will never lose!)");
-        System.out.println("0. Exit");
-        int choice = in.nextInt();
-        switch (choice) {
-            case 1:
-
-        }
-    }
-
     private void setUsers() {
         setHuman();
         setEasyAi();
